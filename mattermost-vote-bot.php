@@ -3,7 +3,7 @@
 
 function hdbcall ($call, $data){
         $data = json_encode($data);
-        $url = "https://haxdb-api.knoxmakers.org/v1/".$call;
+        $url = "http://localhost:8080".$call;
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
