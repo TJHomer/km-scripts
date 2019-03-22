@@ -65,7 +65,7 @@ foreach($count as $value) {
                 array(
                     "short" => true,
                     "title" => "MATTERMOST",
-                    "value" => "` ".$row["PEOPLE_UDF11"]." `" #personal bio
+                    "value" => "` ".$row["PEOPLE_UDF11"]." `" #mattermost handle
                 ),
                 array(
                     "short" => true,
@@ -75,7 +75,7 @@ foreach($count as $value) {
                 array(
                      "short" => true,
                      "title" => "Intent information",
-                     "value" => "` ".$row["PEOPLE_UDF5"]." `"
+                     "value" => "` ".$row["PEOPLE_UDF5"]." `"  #personal bio
                 ),
             ),
         )
